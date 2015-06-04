@@ -1,4 +1,6 @@
 var View = {
+	controller: 'test',
+	model: 'test',
 	events: {
 		resize: function(){
 			// handle top level events here
