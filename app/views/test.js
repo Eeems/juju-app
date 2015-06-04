@@ -1,4 +1,20 @@
 var View = {
+	events: {
+		resize: function(){
+			// handle top level events here
+		}
+	},
+	header: {
+		css: {
+			height: '100px'
+		},
+		children: [
+			{
+				type: 'text',
+				text: 'This is the header'
+			}
+		]
+	},
 	body: {
 		children: [
 			{
@@ -8,8 +24,10 @@ var View = {
 			{
 				type: 'button',
 				label: 'Reload',
-				onclick: function(){
-					location.reload();
+				events: {
+					click: function(){
+						location.reload();
+					}
 				}
 			}
 		]
