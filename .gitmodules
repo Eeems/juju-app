@@ -1,0 +1,6 @@
+[submodule "lib/juju"]
+	path = lib/juju
+	url = https://github.com/Eeems/juju.git
+[submodule "lib/juju-mvc"]
+	path = lib/juju-mvc
+	url = https://github.com/Eeems/juju-mvc.git
