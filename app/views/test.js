@@ -31,6 +31,9 @@ var View = {
 						location.reload();
 					}
 				}
+			},
+			{
+				type: 'input'
 			}
 		]
 	}
