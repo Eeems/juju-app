@@ -33,7 +33,10 @@ var View = {
 				}
 			},
 			{
-				type: 'input'
+				type: 'input',
+				name: 'name'
+			},{
+				type: 'save'
 			}
 		]
 	}
