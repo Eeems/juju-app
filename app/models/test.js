@@ -1,8 +1,8 @@
 var Model = {
 	store: {
 		name: 'test',
-		persist: true,
-		autoflush: true
+		engine: 'indexedDB',
+		autocommit: true
 	},
 	columns: {
 		name: {
